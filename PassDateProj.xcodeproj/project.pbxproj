@@ -16,6 +16,7 @@
 		5BE5EFAD29D0245300526351 /* PassDateProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5EFAC29D0245300526351 /* PassDateProjTests.swift */; };
 		5BE5EFB729D0245300526351 /* PassDateProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5EFB629D0245300526351 /* PassDateProjUITests.swift */; };
 		5BE5EFB929D0245300526351 /* PassDateProjUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5EFB829D0245300526351 /* PassDateProjUITestsLaunchTests.swift */; };
+		5BE5EFC829D02A7C00526351 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5EFC729D02A7C00526351 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5BE5EFB229D0245300526351 /* PassDateProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassDateProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE5EFB629D0245300526351 /* PassDateProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDateProjUITests.swift; sourceTree = "<group>"; };
 		5BE5EFB829D0245300526351 /* PassDateProjUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDateProjUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BE5EFC729D02A7C00526351 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5BE5EF9729D0245200526351 /* SceneDelegate.swift */,
 				5BE5EF9929D0245200526351 /* ViewController.swift */,
 				5BE5EF9B29D0245200526351 /* Main.storyboard */,
+				5BE5EFC729D02A7C00526351 /* secondViewController.swift */,
 				5BE5EF9E29D0245300526351 /* Assets.xcassets */,
 				5BE5EFA029D0245300526351 /* LaunchScreen.storyboard */,
 				5BE5EFA329D0245300526351 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE5EFC829D02A7C00526351 /* secondViewController.swift in Sources */,
 				5BE5EF9A29D0245200526351 /* ViewController.swift in Sources */,
 				5BE5EF9629D0245200526351 /* AppDelegate.swift in Sources */,
 				5BE5EF9829D0245200526351 /* SceneDelegate.swift in Sources */,
@@ -445,6 +449,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
